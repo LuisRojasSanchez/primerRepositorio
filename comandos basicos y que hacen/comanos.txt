@@ -1,0 +1,123 @@
+Estructra basica de html:
+
+Doctype html
+    (tipo de documento que se va a ocupar)
+html lang=es
+    (lenguaje de la pagina)
+head
+    (cabeza, esta es la etiqueta que no se ve a exepcion del title que contiene la descripcion de la pagina)
+meta charsed=utf-8
+    (esto es la codificacion)
+title
+    (Titulo que vas a ver en la ventana)
+meta name=descrption content= nombre de lo que quieras
+    (descripcion de contenido)
+meta name= author content= nombre de author
+    (nombre del author)
+meta name= keywords content= 
+    (lo de abjo son palabras clave para encontrar busquedas)
+cierrra head
+    (aqui se cierra el head)
+body
+    (aqui empieza el cuerpo de la pagina)
+header
+y todo lo que ocupa (h1,h2,h3, todo lo necesario)
+    (es la cabecera)
+nav
+    (es la barra de navegacion)
+    (se recomienda usar ul y dentro un li)(ul es una lista desordenada)(li es list item)
+section
+    (separa la seccion)
+    (se puede ocupar article)
+hgroup
+    (agrupa multiples h1/h6)
+time datetime= "fecha de lo que quieras" texto de la fecha 
+aside
+    (la que va los lados)
+fooder
+    (pie de pagina,)
+
+
+
+cierra html
+    (aca se cierra el html)
+blockquote/ se le puede agregar cite
+    (citar)
+
+ccs comants
+style
+    (estilos)
+o style 
+lo que quieras modficar { background: green; 
+color: black
+}
+background
+    (fondo)
+color
+    (da color a letras)
+    selectores
+        ejemplo (header id="cabecera")
+como seleccionar?
+#cabecera {
+    background: green;
+    color: black
+}
+clases
+ejemplo(header classs="green")
+.(nombre de la clase){
+
+}
+
+como seleccionar todo?
+con un *{
+
+}
+
+ como hacerlo por atributos?
+ ejemplo
+ (el elemento que tenga el atributo) corchetes cite corchete {
+
+ }
+conectar ccs con html
+    link rel="stylesheet" href="(nombre del archivo css)"
+
+comandos de ccs 2.0
+font-size: 
+    (tamaño de letra)
+font-famiy: 
+    (estilo de letra o fuente, se recomienda sans.serif;)
+font-weight: bold; o lighther
+    (es el peso o grosor)
+border: 1px solid black;
+    (crea bordes)
+display: block; 
+    (crea en forma de bloque)
+text-aling: center, right, left, 
+div
+    (solo sirven para crear diviciones)
+dar ancho,  width: (tamaño)
+
+margin: auto; 
+    (da margen)
+
+margin-top
+    (margen arriba)
+
+margin-left
+    (izquierda)
+
+margin-right    
+    (derecha)
+
+margin-bottom
+    (abajo)
+
+padding: 
+    (relleno) 
+
+hacer elementos bloque a linea
+    (con el comando: display: inline-block;)
+
+fload
+    (hace flotar bloques)
+
