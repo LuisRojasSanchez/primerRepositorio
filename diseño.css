@@ -1,87 +1,48 @@
 
-    * {
-        margin: 0;
-        padding: 0';
-    }
     
     .agrupar0 {
         border: 2px solid yellowgreen;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        margin: 15px 15px;
-        padding: 5px 0px;
+       
     }
 
     .principal {
         background-color: purple;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        text-align: center;
-        margin: 10px 10px;
-        padding: 10px left 0; 
-        border: 2px solid black;
+      
     }
     
     .principal h1 {
-        text-align: center;
         font-size: 35px;
-        margin: 10px;
     }
 
     .principal p {
         font-size: 20px;
-        margin: 10px;
     }
 
     .nav1 {
         background-color: green;
-        border: 2px solid black;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        margin: 0px;
-        margin-left: 10px;
-        padding-right: 28px;
-        margin: 10px;
-        display: inline-block;
+        display: flex;
+        justify-content: space-around;
+       
     }
 
     .nav1 li { 
-        display: inline-block;
-        padding: 10px 94px;
-        margin: auto;
-        text-align: center;
+       
+       
     }
 
     .agrupart {
         border: 2px dotted orangered;
-        margin: 15px 15px;
+     
     }
     
     .tituloart {
         border: 2px solid black;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        text-align: center;
-        margin: 15px 15px;
-        padding: 15px;
-        background-color: purple;
+      
     }
 
     .green {
         border: 2px solid gray;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        background-color: greenyellow;
+      
     }
 
     .contenedor {
@@ -91,53 +52,12 @@
    
     .imag1 {
         width: 450px;
-        margin-left: 40px;
-        margin-top: 40px;
-        margin-right: 50px;
-        padding-bottom: 5px;
+       
 
     }
 
     .contenedor p {
         text-align: center;
         border: 2px solid violet;
-        padding-top: 20px;
-        padding-bottom: 10px;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-top: 30px;
-        margin-bottom: 0px;
-        margin-right: 80px;
-    }
-
-    .green footer {
-
-        display:inline-flexbox;
-        text-align: left;
-        padding-right: 1000px;
-        padding-left: 40px;
-        padding-bottom: 20px;
-        border: 2px solid black;
-    }
-
-    .titseccion1 {
-        border: 2px solid black;
-        text-align: center;
-        background-color: pink;
-        margin-top: 30px;
-        padding: 20px;
-
-    }
-
-    .art1 {
-        border: 2px solid black;
-        padding: 25px;
-        margin-top: 20px;
-        background-color: violet;
-        
-    }
-
-    .art1 h1 {
-        text-align: left;
-        
+       
     }
