@@ -81,19 +81,63 @@
         border-top-right-radius: 20px;
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
-        background-color: green;
+        background-color: greenyellow;
     }
 
-    .imagprueba {
-        padding: 0px 90px;
-        padding-top: 40px;
+    .contenedor {
+        display: inline-flex
 
-    }
-    .imagprueba p {
-        text-align: right;
-        display: inline-block;
-        border: 2px solid violet;
-        margin-left: 350px;
-        float: top;
     }
    
+    .imag1 {
+        width: 450px;
+        margin-left: 40px;
+        margin-top: 40px;
+        margin-right: 50px;
+        padding-bottom: 5px;
+
+    }
+
+    .contenedor p {
+        text-align: center;
+        border: 2px solid violet;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        margin-right: 80px;
+    }
+
+    .green footer {
+
+        display:inline-flexbox;
+        text-align: left;
+        padding-right: 1000px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+        border: 2px solid black;
+    }
+
+    .titseccion1 {
+        border: 2px solid black;
+        text-align: center;
+        background-color: pink;
+        margin-top: 30px;
+        padding: 20px;
+
+    }
+
+    .art1 {
+        border: 2px solid black;
+        padding: 25px;
+        margin-top: 20px;
+        background-color: violet;
+        
+    }
+
+    .art1 h1 {
+        text-align: left;
+        
+    }
