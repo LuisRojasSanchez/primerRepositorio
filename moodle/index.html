@@ -7,60 +7,62 @@
     <title>Moodle</title>
     <link rel="stylesheet" href="(dise)">
 </head>
+
 <body style="background-color: aquamarine; margin: 0px 20px;">
-    
-<section style="background-color: dimgrey ; display: flexbox; padding: 10px;">
-    <header>
+
+    <header style="background-color: dimgrey ; display: flexbox; padding: 10px;">
         <h1 style="color: cornsilk; text-align: center; font-size: 50px; margin-top: 10px;font-family: sans-serif;">
             ENCABEZADO NIVEL 1
         </h1>
-    </header>
-
-    <nav style="background-color: #F7D1D5; display: flex; justify-content: space-around; padding: 10px; font-size: 30px; font-family: sans-serif;">
+        <nav
+            style="background-color: #F7D1D5; display: flex; justify-content: space-around; padding: 10px; font-size: 30px; font-family: sans-serif;">
             <a href="#Pagina1">ENLACE 1</a>
             <a href="#Pagina2">ENLACE 2</a>
             <a href="#Pagina3">ENLACE 3</a>
             <a href="#Pagina4">ENLACE 4</a>
         </nav>
-</section>
+    </header>
 
-<div style="background-color: antiquewhite;display: flex; margin: 15px 0px; width: auto; font-family: sans-serif;">   
-    <article style="background-color: cyan; display: flex-box; text-align: center; width: 81%;margin: 10px;">
-        <h1 style="font-size: 50px;">Encabezado Nivel 2</h1>
-        <hgroup style="font-size: 20px;"> 
-            <p> Aqui va texto del primer <strong>párrafo</strong></p>
-            <p>Aqui va texto del segundo parrafo</p>
-        </hgroup>
 
-    </article>
-        <aside style="background-color: deeppink; display:inline-block;margin: 10px 0px; width: 16%; text-align: center;">
-        
+    <main style="background-color: antiquewhite;display: flex; margin: 15px 0px; width: auto; font-family: sans-serif;">
+
+        <article style="background-color: cyan; display: flex-box; text-align: center; width: 81%;margin: 10px;">
+            <h1 style="font-size: 50px;">Encabezado Nivel 2</h1>
+            <hgroup style="font-size: 20px;">
+                <p> Aqui va texto del primer <strong>párrafo</strong></p>
+                <p>Aqui va texto del segundo parrafo</p>
+            </hgroup>
+
+        </article>
+
+        <aside
+            style="background-color: deeppink; display:inline-block;margin: 10px 0px; width: 16%; text-align: center; padding: 10px;">
+
             <h1 style="font-size: 35px;">Apartado</h1>
             <p>Elige una opcion</p>
-                    <input type="checkbox" name="" id="">
-                    <label for="">Opcion 1</label>
-                    <br>
+            <form action="#enviarformulario">
+                <input type="checkbox" name="" id="">
+                <label for="">Opcion 1</label>
+                <br>
+                <div>
                     <input type="checkbox" name="" id="">
                     <label for="">Opcion 2</label>
-                    <br>
-                    <input type="checkbox" name="" id="">
-                    <label for="">Opcion 3</label>
-                    <br>
-                    <br>
-                    <input type="submit" name="" id="">
-                    <p></p>
-                    
-
+                </div>
+                <input type="checkbox" name="" id="">
+                <label for="">Opcion 3</label>
+                <br>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
         </aside>
-</div> 
-    
-<div>
+    </main>
+
     <footer style="background-color: rgb(255, 198, 55); text-align: center; padding: 10px; font-family: sans-serif;">
-    
+
         <p style="font-size: 20px;">Sección de informacion de contacto, derechos de autor, etc</p>
-    
+
     </footer>
-</div>
 
 </body>
+
 </html>
