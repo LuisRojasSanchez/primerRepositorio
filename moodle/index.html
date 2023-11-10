@@ -7,38 +7,56 @@
     <title>Moodle</title>
     <link rel="stylesheet" href="(dise)">
 </head>
-<body>
+<body style="background-color: aquamarine;">
     
-<section>
+<section style="background-color: dimgrey ; ">
     <header>
-        <h1>
+        <h1 style="color: cornsilk; text-align: center; padding-top:30px;">
             Encabezado Nivel 1
         </h1>
     </header>
 
-    <nav style="flex; justify-content: space-around;">
-    <ul>
-        <a href="#" target="_blank">Enlace 1</a>
-        <a href="#" target="_blank">Enlace 2</a>
-        <a href="#" target="_blank">Enlace 3</a>
-        <a href="#" target="_blank">Enlace 4</a>
-    </ul>
-    </nav>
+    <nav style="background-color: #F7D1D5; display: flex; justify-content: space-around; padding: 10px;">
+            <a href="#Pagina1">Enlace 1</a>
+            <a href="#Pagina2">Enlace 2</a>
+            <a href="#Pagina3">Enlace 3</a>
+            <a href="#Pagina4">Enlace 4</a>
+        </nav>
 </section>
 
-<article>
-    <h1>Encabezado Nivel 2</h1>
+<div style="background-color: antiquewhite;display: flex; margin-top: 10px;">   
+    <article style="background-color: cyan; display: inline-block; margin: 5px; width: 80%; text-align: center;">
+        <h1 style="font-size: 50px;">Encabezado Nivel 2</h1>
+        <p> Aqui va texto del primer <strong>párrafo</strong></p>
+        <p>Aqui va texto del segundo parrafo</p>
 
-    <p> Aqui va texto del primer <strong>párrafo</strong></p>
-    <p>Aqui va texto del segundo parrafo</p>
 
-</article>
-<aside>
-        <h1>Apartado</h1>
-        <p>Elige una opcion</p>
-        <input type="checkbox" name="" id="">
-        <label for="">opt1</label>
+    </article>
+        <aside style="background-color: deeppink; display: inline-block; margin: 5px; border: 3px solid black; width: auto; padding: 10px;">
+        
+            <h1 style="font-size: 50px;">Apartado</h1>
+            <p style="text-align: center;">Elige una opcion</p>
+                <ul>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Opcion 1</label>
+                    <br>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Opcion 2</label>
+                    <br>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Opcion 3</label>
+                
+            </ul>
 
-</aside>
+        </aside>
+</div> 
+    
+<div style="display: block;">
+    <footer style="background-color: rgb(255, 198, 55); display: block;">
+    
+        <p>Sección de informacion de contacto, derechos de autor, etc</p>
+    
+    </footer>
+</div>
 
 </body>
