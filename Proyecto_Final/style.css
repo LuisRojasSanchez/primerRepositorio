@@ -1,0 +1,45 @@
+body{
+    background-color: gray;
+    margin: 0vw;
+    font-family: sans-serif;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5vw 12vw;
+    border-bottom: 2px solid white;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+}
+main {
+    background-color: white;
+}
+main h1 {
+    font-size: 7vw;
+}
+
+main hr{
+    border: .1vw solid black
+}
+main table {
+    margin: 15px 0px;
+}
+
+table {
+    width: 100%;
+
+}
+table td {
+    width: 25%;
+}
+td button {
+    color: white;
+    background-color: rgb(98, 98, 207);
+    border: 1;
+}
