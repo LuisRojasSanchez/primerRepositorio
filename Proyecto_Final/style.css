@@ -1,32 +1,69 @@
-body{
-    background-color: gray;
+body {
     margin: 0vw;
     font-family: sans-serif;
     text-align: center;
+}
+
+header {
+    background-image: url("https://los40.cl/wp-content/uploads/2021/05/Billie-Eilish-1024x570.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+header h1 {
+    font-size: 10vw;
+    margin: 1vw;
+    color: bisque;
+}
+
+header button {
+    font-size: 3vw;
+    background-color: transparent;
+    border: .20vw solid bisque;
+    padding: 1vw;
+    color: bisque;
+    margin-bottom: 2vw;
+}
+
+header i {
+    font-size: 10vw;
+    color: rgb(255, 228, 196);
+}
+header a i:hover{
+    color: white;
 }
 nav {
     display: flex;
     justify-content: space-around;
     padding: 1.5vw 12vw;
     border-bottom: 2px solid white;
+    font-size: 1.5vw;
 }
+
 nav a {
     text-decoration: none;
     color: white;
 }
-a:hover{
-    color: black;
-}
-main {
-    background-color: white;
-}
-main h1 {
-    font-size: 7vw;
+
+a:hover {
+    color: bisque;
 }
 
-main hr{
+main {
+    background-color: rgb(238, 173, 93);
+    padding: .5vw 10%;
+}
+
+main h1 {
+    font-size: 7vw;
+    margin: 2vw;
+}
+
+main hr {
     border: .1vw solid black
 }
+
 main table {
     margin: 15px 0px;
 }
@@ -35,11 +72,42 @@ table {
     width: 100%;
 
 }
+
 table td {
     width: 25%;
 }
-td button {
+
+.boletos {
     color: white;
-    background-color: rgb(98, 98, 207);
-    border: 1;
+    background-color: rgb(73, 151, 252);
+    border: 0;
+    width: 2vw 2vw;
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+
+.pie h1 {
+    display: inline;
+    text-align: left;
+    margin: 1.5vw 15vw;
+    color: bisque;
+    font-size: 4vw;
+}
+
+.pie {
+    background-color: rgb(180, 125, 58);
+    display: flex;
+}
+.iconos a {
+    margin: 0vw 1.5vw;
+    color: bisque;
+}
+.iconos a:hover{
+    color: white;
+}
+.iconos {
+    font-size: 3vw;
+    margin: 2vw 0vw;
+    margin-left: 15%;
+
 }
