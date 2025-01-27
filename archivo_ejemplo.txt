@@ -1,0 +1,4 @@
+Este es un archivo de ejempli creado con Python.
+Rojas Sanchez Luis Francisco.
+ Tics
+ TECNM CAMPUS TLALPAN 
