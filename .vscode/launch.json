@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DatosPrimitivos",
+            "request": "launch",
+            "mainClass": "Progracion2.DatosPrimitivos",
+            "projectName": "primerRepositorio_c64fb845"
+        },
+        {
+            "type": "java",
+            "name": "Arreglo",
+            "request": "launch",
+            "mainClass": "Progracion2.Arreglo",
+            "projectName": "primerRepositorio_c64fb845"
+        },
+        {
+            "type": "java",
+            "name": "TablaCalificaciones",
+            "request": "launch",
+            "mainClass": "Progracion2.TablaCalificaciones",
+            "projectName": "primerRepositorio_c64fb845"
+        },
+        {
+            "type": "java",
+            "name": "Expo",
+            "request": "launch",
+            "mainClass": "Expo",
+            "projectName": "primerRepositorio_c64fb845"
+        },
+        {
+            "type": "java",
+            "name": "DatosPrimitivos",
+            "request": "launch",
+            "mainClass": "PHYTHON.DatosPrimitivos",
+            "projectName": "primerRepositorio_c64fb845"
+        },
+        {
+            "type": "java",
+            "name": "TablaCalificaciones",
+            "request": "launch",
+            "mainClass": "TablaCalificaciones",
+            "projectName": "primerRepositorio_c64fb845"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
